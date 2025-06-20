@@ -74,7 +74,7 @@ class GestureAnalyzer:
         self.scaler = None
         
         # Mapeo de gestos según el entrenamiento
-        self.gesture_map = {0: 'COMO_ESTAS', 1: 'BIEN', 2: 'SI', 3:'HOLA'}
+        self.gesture_map = {0: 'HOLA', 1: 'GRACIAS', 2: 'NO', 3: 'BIEN', 4: 'SI'}
         
         # Control de predicciones
         self.last_prediction = None
