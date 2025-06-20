@@ -1,0 +1,1303 @@
+2025-06-12 22:19:52,273 - INFO - Archivo CSV creado: smart_glove_data.csv
+2025-06-12 22:19:52,273 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8765
+2025-06-12 22:19:52,273 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-12 22:19:52,273 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-12 22:19:52,357 - ERROR - Error en servidor: no running event loop
+2025-06-12 22:19:52,358 - INFO - Servidor cerrado correctamente
+2025-06-12 22:20:46,080 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8765
+2025-06-12 22:20:46,080 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-12 22:20:46,080 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-12 22:20:46,101 - ERROR - Error en servidor: no running event loop
+2025-06-12 22:20:46,106 - INFO - Servidor cerrado correctamente
+2025-06-12 22:24:47,221 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8765
+2025-06-12 22:24:47,221 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-12 22:24:47,221 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-12 22:24:47,245 - INFO - server listening on 0.0.0.0:8765
+2025-06-12 22:24:57,363 - INFO - server closing
+2025-06-12 22:24:57,364 - INFO - server closed
+2025-06-12 22:24:57,364 - INFO - Servidor cerrado correctamente
+2025-06-12 22:32:50,610 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-12 22:32:50,610 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-12 22:32:50,610 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-12 22:32:50,633 - INFO - server listening on 0.0.0.0:8080
+2025-06-12 22:53:58,143 - INFO - connection open
+2025-06-12 22:53:58,143 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:03,221 - INFO - connection open
+2025-06-12 22:54:03,221 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:08,262 - INFO - connection open
+2025-06-12 22:54:08,262 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:13,309 - INFO - connection open
+2025-06-12 22:54:13,309 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:18,358 - INFO - connection open
+2025-06-12 22:54:18,358 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:23,433 - INFO - connection open
+2025-06-12 22:54:23,434 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:28,468 - INFO - connection open
+2025-06-12 22:54:28,468 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:33,510 - INFO - connection open
+2025-06-12 22:54:33,511 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:38,560 - INFO - connection open
+2025-06-12 22:54:38,560 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:43,650 - INFO - connection open
+2025-06-12 22:54:43,650 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:48,716 - INFO - connection open
+2025-06-12 22:54:48,716 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:53,763 - INFO - connection open
+2025-06-12 22:54:53,763 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:54:58,814 - INFO - connection open
+2025-06-12 22:54:58,814 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:55:03,863 - INFO - connection open
+2025-06-12 22:55:03,863 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:55:08,932 - INFO - connection open
+2025-06-12 22:55:08,932 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:55:13,964 - INFO - connection open
+2025-06-12 22:55:13,964 - ERROR - connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\websockets\asyncio\server.py", line 376, in conn_handler
+    await self.handler(connection)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SmartGloveServer.handle_client_message() missing 1 required positional argument: 'path'
+2025-06-12 22:55:29,260 - INFO - server closing
+2025-06-12 22:55:29,260 - INFO - server closed
+2025-06-12 22:55:29,260 - INFO - Servidor cerrado correctamente
+2025-06-12 22:57:49,021 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-12 22:57:49,021 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-12 22:57:49,021 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-12 22:57:49,049 - INFO - server listening on 0.0.0.0:8080
+2025-06-12 22:58:14,455 - INFO - connection open
+2025-06-12 22:58:14,455 - INFO - Cliente conectado: 192.168.31.145:54673
+2025-06-12 22:58:14,456 - INFO - Total de clientes conectados: 1
+2025-06-12 23:01:49,530 - INFO - server closing
+2025-06-12 23:01:53,546 - INFO - Servidor cerrado correctamente
+2025-06-12 23:01:53,546 - INFO - Cliente desconectado: 192.168.31.145:54673
+2025-06-12 23:01:53,546 - INFO - Total de clientes conectados: 0
+2025-06-16 22:41:12,450 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 22:41:12,586 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 22:41:12,593 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 22:41:12,593 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 22:41:12,593 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 22:41:12,593 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:41:12,595 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 22:41:12,595 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 22:41:12,672 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 22:41:12,724 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 22:45:14,487 - INFO - server closing
+2025-06-16 22:45:14,487 - INFO - server closed
+2025-06-16 22:45:14,487 - INFO - Servidor cerrado correctamente
+2025-06-16 22:45:23,441 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 22:45:23,554 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 22:45:23,559 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 22:45:23,559 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 22:45:23,561 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 22:45:23,561 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:45:23,562 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 22:45:23,562 - INFO - Los datos se guardarÃ¡n en: smart_glove_data.csv
+2025-06-16 22:45:23,562 - INFO - ANALISIS DE GESTOS ACTIVADO
+2025-06-16 22:45:23,562 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:45:23,562 - INFO - Necesita 68 muestras para prediccion
+2025-06-16 22:45:23,562 - INFO - Frecuencia de analisis: cada 0.8 segundos
+2025-06-16 22:45:23,562 - INFO - Umbral de confianza: 0.7
+2025-06-16 22:45:23,562 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 22:45:23,579 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 22:45:52,684 - INFO - server closing
+2025-06-16 22:45:52,686 - INFO - server closed
+2025-06-16 22:45:52,686 - INFO - Servidor cerrado correctamente
+2025-06-16 22:46:24,746 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 22:46:24,857 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 22:46:24,862 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 22:46:24,862 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 22:46:24,863 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 22:46:24,863 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:46:24,864 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 22:46:24,864 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 22:46:24,871 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 22:46:24,890 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 22:46:29,541 - INFO - server closing
+2025-06-16 22:46:29,541 - INFO - server closed
+2025-06-16 22:46:29,542 - INFO - Servidor cerrado correctamente
+2025-06-16 22:47:21,459 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 22:47:21,574 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 22:47:21,579 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 22:47:21,579 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 22:47:21,579 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 22:47:21,579 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:47:21,580 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 22:47:21,580 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 22:47:21,586 - INFO - Umbral de confianza: 0.7
+2025-06-16 22:47:21,587 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 22:47:21,604 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 22:48:14,431 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 22:48:14,542 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 22:48:14,548 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 22:48:14,548 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 22:48:14,548 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 22:48:14,549 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:48:14,550 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 22:48:14,550 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 22:48:14,555 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-16 22:48:14,555 - INFO - Umbral de confianza: 0.7
+2025-06-16 22:48:14,555 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 22:48:14,571 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 22:48:35,187 - INFO - server closing
+2025-06-16 22:48:35,188 - INFO - server closed
+2025-06-16 22:48:35,188 - INFO - Servidor cerrado correctamente
+2025-06-16 22:48:45,123 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 22:48:45,235 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 22:48:45,240 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 22:48:45,240 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 22:48:45,240 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 22:48:45,240 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:48:45,241 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 22:48:45,241 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 22:48:45,242 - INFO - Análisis de gestos ACTIVADO
+2025-06-16 22:48:45,242 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 22:48:45,242 - INFO - Necesita 68 muestras para predicción
+2025-06-16 22:48:45,242 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-16 22:48:45,242 - INFO - Umbral de confianza: 0.7
+2025-06-16 22:48:45,242 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 22:48:45,258 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 22:56:11,767 - INFO - connection open
+2025-06-16 22:56:11,768 - INFO - Cliente conectado: 192.168.1.24:50306
+2025-06-16 22:56:11,768 - INFO - Total de clientes conectados: 1
+2025-06-16 22:56:16,405 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 22:57:38,829 - INFO - server closing
+2025-06-16 22:57:38,858 - ERROR - Error procesando mensaje: sent 1001 (going away); then received 1000 (OK)
+2025-06-16 22:57:38,859 - INFO - Cliente desconectado: 192.168.1.24:50306
+2025-06-16 22:57:38,859 - INFO - Total de clientes conectados: 0
+2025-06-16 22:57:38,859 - INFO - server closed
+2025-06-16 22:57:38,864 - INFO - Servidor cerrado correctamente
+2025-06-16 23:04:44,650 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 23:04:44,761 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 23:04:44,766 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 23:04:44,766 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 23:04:44,766 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 23:04:44,766 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:04:44,767 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 23:04:44,768 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 23:04:44,768 - INFO - Análisis de gestos ACTIVADO
+2025-06-16 23:04:44,768 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:04:44,768 - INFO - Necesita 68 muestras para predicción
+2025-06-16 23:04:44,768 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-16 23:04:44,768 - INFO - Umbral de confianza: 0.7
+2025-06-16 23:04:44,768 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 23:04:44,784 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 23:05:20,891 - INFO - connection open
+2025-06-16 23:05:20,893 - INFO - Cliente conectado: 192.168.1.24:55434
+2025-06-16 23:05:20,893 - INFO - Total de clientes conectados: 1
+2025-06-16 23:05:25,356 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 23:05:27,612 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 23:06:00,912 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 23:06:01,730 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 23:06:18,279 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 23:06:19,930 - ERROR - Error procesando mensaje: Object of type float32 is not JSON serializable
+2025-06-16 23:06:40,861 - INFO - Cliente desconectado normalmente
+2025-06-16 23:06:40,861 - INFO - Cliente desconectado: 192.168.1.24:55434
+2025-06-16 23:06:40,861 - INFO - Total de clientes conectados: 0
+2025-06-16 23:09:49,786 - INFO - server closing
+2025-06-16 23:09:49,788 - INFO - server closed
+2025-06-16 23:09:49,788 - INFO - Estadísticas finales: 1146 análisis, 0.5% exitosos
+2025-06-16 23:09:49,788 - INFO - Servidor cerrado correctamente
+2025-06-16 23:09:58,749 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 23:09:58,862 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 23:09:58,867 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 23:09:58,867 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 23:09:58,868 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 23:09:58,868 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:09:58,869 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 23:09:58,869 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 23:09:58,869 - INFO - Análisis de gestos ACTIVADO
+2025-06-16 23:09:58,869 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:09:58,869 - INFO - Necesita 68 muestras para predicción
+2025-06-16 23:09:58,869 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-16 23:09:58,869 - INFO - Umbral de confianza: 0.7
+2025-06-16 23:09:58,869 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 23:09:58,887 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 23:10:20,470 - INFO - connection open
+2025-06-16 23:10:20,471 - INFO - Cliente conectado: 192.168.1.24:49466
+2025-06-16 23:10:20,471 - INFO - Total de clientes conectados: 1
+2025-06-16 23:11:49,970 - INFO - Cliente desconectado normalmente
+2025-06-16 23:11:49,970 - INFO - Cliente desconectado: 192.168.1.24:49466
+2025-06-16 23:11:49,970 - INFO - Total de clientes conectados: 0
+2025-06-16 23:12:19,194 - INFO - server closing
+2025-06-16 23:12:19,195 - INFO - server closed
+2025-06-16 23:12:19,195 - INFO - Estadísticas finales: 1336 análisis, 0.6% exitosos
+2025-06-16 23:12:19,195 - INFO - Servidor cerrado correctamente
+2025-06-16 23:28:47,218 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 23:28:47,339 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 23:28:47,345 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 23:28:47,345 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 23:28:47,345 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 23:28:47,346 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:28:47,347 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 23:28:47,347 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 23:28:47,347 - INFO - Análisis de gestos ACTIVADO
+2025-06-16 23:28:47,347 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:28:47,347 - INFO - Necesita 68 muestras para predicción
+2025-06-16 23:28:47,347 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-16 23:28:47,347 - INFO - Umbral de confianza: 0.7
+2025-06-16 23:28:47,347 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 23:28:47,365 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 23:29:08,288 - INFO - connection open
+2025-06-16 23:29:08,288 - INFO - Cliente conectado: 192.168.1.24:50272
+2025-06-16 23:29:08,288 - INFO - Total de clientes conectados: 1
+2025-06-16 23:30:20,702 - INFO - server closing
+2025-06-16 23:30:20,802 - ERROR - Error procesando mensaje: ConnectionClosedOK: sent 1001 (going away); then received 1000 (OK)
+2025-06-16 23:30:20,802 - INFO - Cliente desconectado: 192.168.1.24:50272
+2025-06-16 23:30:20,802 - INFO - Total de clientes conectados: 0
+2025-06-16 23:30:20,803 - INFO - server closed
+2025-06-16 23:30:20,803 - INFO - Estadísticas finales: 1380 análisis, 1.2% exitosos
+2025-06-16 23:30:20,803 - INFO - Servidor cerrado correctamente
+2025-06-16 23:45:59,501 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-16 23:45:59,662 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-16 23:45:59,671 - INFO - Modelo cargado desde: modelo.h5
+2025-06-16 23:45:59,671 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-16 23:45:59,671 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-16 23:45:59,671 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:45:59,674 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-16 23:45:59,674 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-16 23:45:59,674 - INFO - Análisis de gestos ACTIVADO
+2025-06-16 23:45:59,674 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-16 23:45:59,674 - INFO - Necesita 68 muestras para predicción
+2025-06-16 23:45:59,674 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-16 23:45:59,674 - INFO - Umbral de confianza: 0.7
+2025-06-16 23:45:59,674 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-16 23:45:59,698 - INFO - server listening on 0.0.0.0:8080
+2025-06-16 23:46:42,626 - INFO - connection open
+2025-06-16 23:46:42,689 - INFO - Cliente ESP32 conectado: 192.168.1.24:49405
+2025-06-16 23:46:42,690 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-16 23:47:08,267 - INFO - connection open
+2025-06-16 23:47:08,269 - INFO - Cliente Aplicación Móvil conectado: 127.0.0.1:62731
+2025-06-16 23:47:08,269 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-16 23:50:38,154 - INFO - server closing
+2025-06-16 23:50:38,155 - INFO - Cliente desconectado: 127.0.0.1:62731
+2025-06-16 23:50:38,155 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-16 23:50:38,179 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-16 23:50:38,179 - INFO - Cliente desconectado: 192.168.1.24:49405
+2025-06-16 23:50:38,179 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-16 23:50:38,179 - INFO - server closed
+2025-06-16 23:50:38,180 - INFO - Estadísticas finales: 4636 análisis, 0.5% exitosos
+2025-06-16 23:50:38,180 - INFO - Servidor cerrado correctamente
+2025-06-17 00:14:38,062 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-17 00:14:38,217 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-17 00:14:38,224 - INFO - Modelo cargado desde: modelo.h5
+2025-06-17 00:14:38,224 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-17 00:14:38,224 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-17 00:14:38,224 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-17 00:14:38,227 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-17 00:14:38,227 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-17 00:14:38,227 - INFO - Análisis de gestos ACTIVADO
+2025-06-17 00:14:38,228 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-17 00:14:38,228 - INFO - Necesita 68 muestras para predicción
+2025-06-17 00:14:38,228 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-17 00:14:38,228 - INFO - Umbral de confianza: 0.7
+2025-06-17 00:14:38,228 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-17 00:14:38,250 - INFO - server listening on 0.0.0.0:8080
+2025-06-17 00:14:47,387 - INFO - connection open
+2025-06-17 00:14:47,483 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:49179
+2025-06-17 00:14:47,484 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-17 00:15:35,583 - INFO - connection open
+2025-06-17 00:15:35,651 - INFO - Cliente ESP32 conectado: 192.168.1.24:61448
+2025-06-17 00:15:35,651 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-17 00:16:33,496 - INFO - server closing
+2025-06-17 00:16:33,511 - INFO - Cliente desconectado: 192.168.1.18:49179
+2025-06-17 00:16:33,511 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-17 00:16:36,152 - INFO - Cliente desconectado: 192.168.1.24:61448
+2025-06-17 00:16:36,152 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-17 00:16:36,156 - INFO - Estadísticas finales: 912 análisis, 0.7% exitosos
+2025-06-17 00:16:36,156 - INFO - Servidor cerrado correctamente
+2025-06-17 00:19:21,587 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-17 00:19:21,694 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-17 00:19:21,699 - INFO - Modelo cargado desde: modelo.h5
+2025-06-17 00:19:21,699 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-17 00:19:21,699 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-17 00:19:21,700 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-17 00:19:21,701 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-17 00:19:21,701 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-17 00:19:21,701 - INFO - Análisis de gestos ACTIVADO
+2025-06-17 00:19:21,701 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-17 00:19:21,701 - INFO - Necesita 68 muestras para predicción
+2025-06-17 00:19:21,701 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-17 00:19:21,701 - INFO - Umbral de confianza: 0.7
+2025-06-17 00:19:21,701 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-17 00:19:21,718 - INFO - server listening on 0.0.0.0:8080
+2025-06-17 00:19:25,574 - INFO - connection open
+2025-06-17 00:19:25,673 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:49812
+2025-06-17 00:19:25,674 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-17 00:20:04,695 - INFO - connection open
+2025-06-17 00:20:04,765 - INFO - Cliente ESP32 conectado: 192.168.1.24:58169
+2025-06-17 00:20:04,765 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-17 00:21:30,475 - INFO - server closing
+2025-06-17 00:21:30,485 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-17 00:21:30,486 - INFO - Cliente desconectado: 192.168.1.24:58169
+2025-06-17 00:21:30,486 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-17 00:21:30,491 - INFO - Cliente desconectado: 192.168.1.18:49812
+2025-06-17 00:21:30,491 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-17 00:21:30,491 - INFO - server closed
+2025-06-17 00:21:30,493 - INFO - Estadísticas finales: 1645 análisis, 0.6% exitosos
+2025-06-17 00:21:30,493 - INFO - Servidor cerrado correctamente
+2025-06-18 00:33:25,519 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-18 00:33:25,788 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 00:33:25,798 - INFO - Modelo cargado desde: modelo.h5
+2025-06-18 00:33:25,799 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-18 00:33:25,799 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-18 00:33:25,799 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-18 00:33:25,802 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-18 00:33:25,802 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-18 00:33:25,803 - INFO - Análisis de gestos ACTIVADO
+2025-06-18 00:33:25,803 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-18 00:33:25,803 - INFO - Necesita 68 muestras para predicción
+2025-06-18 00:33:25,803 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-18 00:33:25,803 - INFO - Umbral de confianza: 0.7
+2025-06-18 00:33:25,804 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-18 00:33:25,884 - INFO - server listening on 0.0.0.0:8080
+2025-06-18 00:35:37,065 - INFO - connection open
+2025-06-18 00:35:37,350 - INFO - Cliente ESP32 conectado: 192.168.1.24:59057
+2025-06-18 00:35:37,350 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:35:54,091 - INFO - server closing
+2025-06-18 00:35:54,158 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:35:54,159 - INFO - Cliente desconectado: 192.168.1.24:59057
+2025-06-18 00:35:54,159 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:35:54,159 - INFO - server closed
+2025-06-18 00:35:54,159 - INFO - Estadísticas finales: 257 análisis, 1.2% exitosos
+2025-06-18 00:35:54,159 - INFO - Servidor cerrado correctamente
+2025-06-18 00:36:46,133 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-18 00:36:46,297 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 00:36:46,305 - INFO - Modelo cargado desde: modelo.h5
+2025-06-18 00:36:46,306 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-18 00:36:46,306 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-18 00:36:46,306 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-18 00:36:46,307 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-18 00:36:46,307 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-18 00:36:46,307 - INFO - Análisis de gestos ACTIVADO
+2025-06-18 00:36:46,307 - INFO - Gestos disponibles: ['BIEN', 'SI', 'HOLA', 'ADIOS']
+2025-06-18 00:36:46,309 - INFO - Necesita 68 muestras para predicción
+2025-06-18 00:36:46,309 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-18 00:36:46,309 - INFO - Umbral de confianza: 0.7
+2025-06-18 00:36:46,309 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-18 00:36:46,334 - INFO - server listening on 0.0.0.0:8080
+2025-06-18 00:37:35,747 - INFO - connection open
+2025-06-18 00:37:35,933 - INFO - Cliente ESP32 conectado: 192.168.1.24:51809
+2025-06-18 00:37:35,934 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:41:28,229 - INFO - connection open
+2025-06-18 00:41:28,388 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:62960
+2025-06-18 00:41:28,388 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:42:17,430 - INFO - server closing
+2025-06-18 00:42:17,724 - INFO - Cliente desconectado: 192.168.1.18:62960
+2025-06-18 00:42:17,724 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:42:18,168 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,268 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,269 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,269 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,270 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,270 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,271 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,271 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,272 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-18 00:42:18,272 - INFO - Cliente desconectado: 192.168.1.24:51809
+2025-06-18 00:42:18,272 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:42:18,272 - INFO - server closed
+2025-06-18 00:42:18,273 - INFO - Estadísticas finales: 5008 análisis, 0.2% exitosos
+2025-06-18 00:42:18,274 - INFO - Servidor cerrado correctamente
+2025-06-18 00:43:24,699 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-18 00:43:24,976 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 00:43:24,987 - INFO - Modelo cargado desde: modelo.h5
+2025-06-18 00:43:24,987 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-18 00:43:24,987 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-18 00:43:24,987 - INFO - Gestos disponibles: ['SI', 'HOLA', 'ADIOS', 'BIEN']
+2025-06-18 00:43:24,992 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-18 00:43:24,994 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-18 00:43:24,994 - INFO - Análisis de gestos ACTIVADO
+2025-06-18 00:43:24,995 - INFO - Gestos disponibles: ['SI', 'HOLA', 'ADIOS', 'BIEN']
+2025-06-18 00:43:24,995 - INFO - Necesita 68 muestras para predicción
+2025-06-18 00:43:24,996 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-18 00:43:24,996 - INFO - Umbral de confianza: 0.7
+2025-06-18 00:43:24,996 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-18 00:43:25,036 - INFO - server listening on 0.0.0.0:8080
+2025-06-18 00:43:25,566 - INFO - connection open
+2025-06-18 00:43:25,842 - INFO - Cliente ESP32 conectado: 192.168.1.24:51816
+2025-06-18 00:43:25,843 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:43:44,800 - INFO - connection open
+2025-06-18 00:43:44,890 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63088
+2025-06-18 00:43:44,890 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:44:50,434 - INFO - Cliente desconectado normalmente
+2025-06-18 00:44:50,435 - INFO - Cliente desconectado: 192.168.1.24:51816
+2025-06-18 00:44:50,435 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:44:54,626 - INFO - Cliente desconectado normalmente
+2025-06-18 00:44:54,626 - INFO - Cliente desconectado: 192.168.1.18:63088
+2025-06-18 00:44:54,627 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:44:56,060 - INFO - connection open
+2025-06-18 00:44:56,162 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63166
+2025-06-18 00:44:56,162 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:45:20,349 - INFO - connection open
+2025-06-18 00:45:20,431 - INFO - Cliente ESP32 conectado: 192.168.1.24:56174
+2025-06-18 00:45:20,431 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:45:20,943 - INFO - Cliente desconectado: 192.168.1.18:63166
+2025-06-18 00:45:20,943 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:45:43,166 - INFO - connection open
+2025-06-18 00:45:43,265 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63224
+2025-06-18 00:45:43,265 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:48:40,220 - INFO - Cliente desconectado normalmente
+2025-06-18 00:48:40,220 - INFO - Cliente desconectado: 192.168.1.24:56174
+2025-06-18 00:48:40,221 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:48:57,935 - INFO - Cliente desconectado: 192.168.1.18:63224
+2025-06-18 00:48:57,937 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:49:12,066 - INFO - connection open
+2025-06-18 00:49:12,169 - INFO - Cliente ESP32 conectado: 192.168.1.24:54735
+2025-06-18 00:49:12,169 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:49:20,296 - INFO - connection open
+2025-06-18 00:49:20,361 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63415
+2025-06-18 00:49:20,361 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:51:36,161 - INFO - Cliente desconectado: 192.168.1.18:63415
+2025-06-18 00:51:36,161 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:52:01,029 - INFO - Cliente desconectado normalmente
+2025-06-18 00:52:01,029 - INFO - Cliente desconectado: 192.168.1.24:54735
+2025-06-18 00:52:01,030 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:52:29,101 - INFO - connection open
+2025-06-18 00:52:29,192 - INFO - Cliente ESP32 conectado: 192.168.1.24:54920
+2025-06-18 00:52:29,192 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:54:33,211 - INFO - connection open
+2025-06-18 00:54:33,317 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63741
+2025-06-18 00:54:33,317 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:54:36,045 - INFO - Cliente desconectado: 192.168.1.18:63741
+2025-06-18 00:54:36,045 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:54:42,104 - INFO - connection open
+2025-06-18 00:54:42,286 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63748
+2025-06-18 00:54:42,287 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:54:53,257 - INFO - Cliente desconectado: 192.168.1.18:63748
+2025-06-18 00:54:53,257 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:54:53,795 - INFO - connection open
+2025-06-18 00:54:53,864 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63757
+2025-06-18 00:54:53,864 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:54:58,266 - INFO - Cliente desconectado: 192.168.1.18:63757
+2025-06-18 00:54:58,266 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:55:03,727 - INFO - connection open
+2025-06-18 00:55:03,821 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63776
+2025-06-18 00:55:03,822 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:55:10,564 - INFO - Cliente desconectado: 192.168.1.18:63776
+2025-06-18 00:55:10,564 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:55:19,371 - INFO - Cliente desconectado normalmente
+2025-06-18 00:55:19,373 - INFO - Cliente desconectado: 192.168.1.24:54920
+2025-06-18 00:55:19,373 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:55:28,982 - INFO - connection open
+2025-06-18 00:55:29,077 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63799
+2025-06-18 00:55:29,077 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:55:36,370 - INFO - Cliente desconectado: 192.168.1.18:63799
+2025-06-18 00:55:36,370 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:55:36,848 - INFO - connection open
+2025-06-18 00:55:36,941 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63806
+2025-06-18 00:55:36,941 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:56:14,425 - INFO - connection open
+2025-06-18 00:56:14,524 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:63845
+2025-06-18 00:56:14,526 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-18 00:56:16,866 - INFO - Cliente desconectado normalmente
+2025-06-18 00:56:16,868 - INFO - Cliente desconectado: 192.168.1.18:63806
+2025-06-18 00:56:16,869 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:56:29,749 - INFO - connection open
+2025-06-18 00:56:29,818 - INFO - Cliente ESP32 conectado: 192.168.1.24:54043
+2025-06-18 00:56:29,818 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:56:49,133 - INFO - Cliente desconectado normalmente
+2025-06-18 00:56:49,133 - INFO - Cliente desconectado: 192.168.1.24:54043
+2025-06-18 00:56:49,134 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 00:57:10,279 - INFO - Cliente desconectado normalmente
+2025-06-18 00:57:10,280 - INFO - Cliente desconectado: 192.168.1.18:63845
+2025-06-18 00:57:10,280 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 00:57:36,735 - INFO - connection open
+2025-06-18 00:57:36,800 - INFO - Cliente ESP32 conectado: 192.168.1.24:54190
+2025-06-18 00:57:36,800 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:58:00,859 - INFO - connection open
+2025-06-18 00:58:01,080 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64169
+2025-06-18 00:58:01,080 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 00:59:24,979 - INFO - Cliente desconectado: 192.168.1.18:64169
+2025-06-18 00:59:24,979 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 00:59:30,688 - INFO - connection open
+2025-06-18 00:59:30,783 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64242
+2025-06-18 00:59:30,783 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:02:49,084 - INFO - Cliente desconectado normalmente
+2025-06-18 01:02:49,085 - INFO - Cliente desconectado: 192.168.1.18:64242
+2025-06-18 01:02:49,085 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:02:50,367 - INFO - connection open
+2025-06-18 01:02:50,686 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64447
+2025-06-18 01:02:50,687 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:03:06,869 - INFO - Cliente desconectado: 192.168.1.18:64447
+2025-06-18 01:03:06,875 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:03:10,041 - INFO - connection open
+2025-06-18 01:03:10,135 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64472
+2025-06-18 01:03:10,135 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:03:20,996 - INFO - Cliente desconectado: 192.168.1.18:64472
+2025-06-18 01:03:20,996 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:03:21,301 - INFO - connection open
+2025-06-18 01:03:21,310 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64481
+2025-06-18 01:03:21,310 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:07:33,201 - INFO - Cliente desconectado normalmente
+2025-06-18 01:07:33,202 - INFO - Cliente desconectado: 192.168.1.18:64481
+2025-06-18 01:07:33,202 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:07:34,636 - INFO - connection open
+2025-06-18 01:07:34,741 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64960
+2025-06-18 01:07:34,744 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:07:50,396 - INFO - Cliente desconectado: 192.168.1.18:64960
+2025-06-18 01:07:50,396 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:07:52,663 - INFO - connection open
+2025-06-18 01:07:52,762 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.18:64974
+2025-06-18 01:07:52,762 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:08:10,888 - INFO - Cliente desconectado normalmente
+2025-06-18 01:08:10,888 - INFO - Cliente desconectado: 192.168.1.18:64974
+2025-06-18 01:08:10,888 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:21:07,735 - INFO - connection open
+2025-06-18 01:21:07,921 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.2:38188
+2025-06-18 01:21:07,921 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:21:29,936 - INFO - Cliente desconectado: 192.168.1.2:38188
+2025-06-18 01:21:29,937 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:21:30,861 - INFO - connection open
+2025-06-18 01:21:30,904 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.2:38238
+2025-06-18 01:21:30,904 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:23:04,453 - INFO - connection open
+2025-06-18 01:23:04,556 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.6:47502
+2025-06-18 01:23:04,556 - INFO - Clientes conectados - Total: 3, ESP32: 1, Móvil: 2
+2025-06-18 01:23:24,935 - INFO - Cliente desconectado normalmente
+2025-06-18 01:23:24,935 - INFO - Cliente desconectado: 192.168.1.6:47502
+2025-06-18 01:23:24,936 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:23:51,251 - INFO - Cliente desconectado normalmente
+2025-06-18 01:23:51,251 - INFO - Cliente desconectado: 192.168.1.2:38238
+2025-06-18 01:23:51,252 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 01:25:46,365 - INFO - connection open
+2025-06-18 01:25:46,454 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.2:38408
+2025-06-18 01:25:46,454 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:25:55,721 - INFO - connection open
+2025-06-18 01:25:55,782 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.6:44198
+2025-06-18 01:25:55,782 - INFO - Clientes conectados - Total: 3, ESP32: 1, Móvil: 2
+2025-06-18 01:26:34,358 - INFO - Cliente desconectado: 192.168.1.2:38408
+2025-06-18 01:26:34,359 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:26:35,343 - INFO - connection open
+2025-06-18 01:26:35,430 - INFO - Cliente Aplicación Móvil conectado: 192.168.1.2:38434
+2025-06-18 01:26:35,430 - INFO - Clientes conectados - Total: 3, ESP32: 1, Móvil: 2
+2025-06-18 01:27:01,008 - INFO - Cliente desconectado normalmente
+2025-06-18 01:27:01,009 - INFO - Cliente desconectado: 192.168.1.6:44198
+2025-06-18 01:27:01,009 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-18 01:27:47,527 - INFO - Cliente desconectado normalmente
+2025-06-18 01:27:47,528 - INFO - Cliente desconectado: 192.168.1.24:54190
+2025-06-18 01:27:47,528 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 01:28:58,985 - INFO - Cliente desconectado normalmente
+2025-06-18 01:28:58,986 - INFO - Cliente desconectado: 192.168.1.2:38434
+2025-06-18 01:28:58,986 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 09:56:27,604 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-18 09:56:27,755 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 09:56:27,760 - INFO - Modelo cargado desde: modelo.h5
+2025-06-18 09:56:27,760 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-18 09:56:27,760 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-18 09:56:27,760 - INFO - Gestos disponibles: ['SI', 'HOLA', 'ADIOS', 'BIEN']
+2025-06-18 09:56:27,762 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-18 09:56:27,762 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-18 09:56:27,762 - INFO - Análisis de gestos ACTIVADO
+2025-06-18 09:56:27,762 - INFO - Gestos disponibles: ['SI', 'HOLA', 'ADIOS', 'BIEN']
+2025-06-18 09:56:27,763 - INFO - Necesita 68 muestras para predicción
+2025-06-18 09:56:27,763 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-18 09:56:27,763 - INFO - Umbral de confianza: 0.7
+2025-06-18 09:56:27,763 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-18 09:56:27,805 - INFO - server listening on 0.0.0.0:8080
+2025-06-18 12:17:20,495 - INFO - server closing
+2025-06-18 12:17:20,501 - INFO - server closed
+2025-06-18 12:17:20,503 - INFO - Servidor cerrado correctamente
+2025-06-18 23:28:34,267 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-18 23:28:34,421 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-18 23:28:34,427 - INFO - Modelo cargado desde: modelo.h5
+2025-06-18 23:28:34,427 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-18 23:28:34,427 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-18 23:28:34,427 - INFO - Gestos disponibles: ['SI', 'HOLA', 'ADIOS', 'BIEN']
+2025-06-18 23:28:34,429 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-18 23:28:34,429 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-18 23:28:34,429 - INFO - Análisis de gestos ACTIVADO
+2025-06-18 23:28:34,429 - INFO - Gestos disponibles: ['SI', 'HOLA', 'ADIOS', 'BIEN']
+2025-06-18 23:28:34,429 - INFO - Necesita 68 muestras para predicción
+2025-06-18 23:28:34,430 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-18 23:28:34,430 - INFO - Umbral de confianza: 0.7
+2025-06-18 23:28:34,430 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-18 23:28:34,476 - INFO - server listening on 0.0.0.0:8080
+2025-06-18 23:34:18,181 - INFO - connection open
+2025-06-18 23:34:18,286 - INFO - Cliente ESP32 conectado: 192.168.31.145:64308
+2025-06-18 23:34:18,287 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 23:38:20,967 - INFO - Cliente desconectado normalmente
+2025-06-18 23:38:20,967 - INFO - Cliente desconectado: 192.168.31.145:64308
+2025-06-18 23:38:20,967 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 23:41:35,236 - INFO - connection open
+2025-06-18 23:41:35,305 - INFO - Cliente ESP32 conectado: 192.168.31.145:64397
+2025-06-18 23:41:35,306 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 23:48:23,506 - INFO - Cliente desconectado normalmente
+2025-06-18 23:48:23,506 - INFO - Cliente desconectado: 192.168.31.145:64397
+2025-06-18 23:48:23,506 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 23:48:31,497 - INFO - connection open
+2025-06-18 23:48:31,542 - INFO - Cliente ESP32 conectado: 192.168.31.145:57934
+2025-06-18 23:48:31,542 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-18 23:50:39,296 - INFO - Cliente desconectado normalmente
+2025-06-18 23:50:39,297 - INFO - Cliente desconectado: 192.168.31.145:57934
+2025-06-18 23:50:39,297 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-18 23:56:05,463 - INFO - connection open
+2025-06-18 23:56:05,520 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:62978
+2025-06-18 23:56:05,520 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-18 23:59:24,683 - INFO - Cliente desconectado normalmente
+2025-06-18 23:59:24,684 - INFO - Cliente desconectado: 192.168.31.145:62978
+2025-06-18 23:59:24,684 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:02:53,948 - INFO - connection open
+2025-06-19 00:02:54,027 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:57137
+2025-06-19 00:02:54,028 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:04:33,156 - INFO - Cliente desconectado normalmente
+2025-06-19 00:04:33,156 - INFO - Cliente desconectado: 192.168.31.145:57137
+2025-06-19 00:04:33,157 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:24:58,530 - INFO - connection open
+2025-06-19 00:24:58,613 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:52632
+2025-06-19 00:24:58,614 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:27:20,957 - INFO - Cliente desconectado normalmente
+2025-06-19 00:27:20,957 - INFO - Cliente desconectado: 192.168.31.145:52632
+2025-06-19 00:27:20,958 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:27:23,977 - INFO - connection open
+2025-06-19 00:27:24,021 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:51842
+2025-06-19 00:27:24,021 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:27:37,860 - INFO - connection open
+2025-06-19 00:27:37,917 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:53219
+2025-06-19 00:27:37,917 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 00:27:43,972 - INFO - Cliente desconectado normalmente
+2025-06-19 00:27:43,972 - INFO - Cliente desconectado: 192.168.31.145:51842
+2025-06-19 00:27:43,972 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:28:37,040 - INFO - Cliente desconectado normalmente
+2025-06-19 00:28:37,040 - INFO - Cliente desconectado: 192.168.31.145:53219
+2025-06-19 00:28:37,042 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:28:49,644 - INFO - connection open
+2025-06-19 00:28:49,701 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:49655
+2025-06-19 00:28:49,701 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:29:28,822 - INFO - Cliente desconectado normalmente
+2025-06-19 00:29:28,822 - INFO - Cliente desconectado: 192.168.31.145:49655
+2025-06-19 00:29:28,822 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:29:45,066 - INFO - connection open
+2025-06-19 00:29:45,111 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:55142
+2025-06-19 00:29:45,111 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:30:27,645 - INFO - Cliente desconectado normalmente
+2025-06-19 00:30:27,645 - INFO - Cliente desconectado: 192.168.31.145:55142
+2025-06-19 00:30:27,645 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:30:30,593 - INFO - connection open
+2025-06-19 00:30:30,638 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:58133
+2025-06-19 00:30:30,638 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:33:49,776 - INFO - Cliente desconectado normalmente
+2025-06-19 00:33:49,776 - INFO - Cliente desconectado: 192.168.31.145:58133
+2025-06-19 00:33:49,777 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:35:11,017 - INFO - connection open
+2025-06-19 00:35:11,077 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:56435
+2025-06-19 00:35:11,077 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:35:31,191 - INFO - Cliente desconectado normalmente
+2025-06-19 00:35:31,191 - INFO - Cliente desconectado: 192.168.31.145:56435
+2025-06-19 00:35:31,191 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 00:35:34,239 - INFO - connection open
+2025-06-19 00:35:34,282 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:60824
+2025-06-19 00:35:34,282 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 00:41:33,408 - INFO - Cliente desconectado normalmente
+2025-06-19 00:41:33,408 - INFO - Cliente desconectado: 192.168.31.145:60824
+2025-06-19 00:41:33,409 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 01:15:17,061 - INFO - connection open
+2025-06-19 01:15:17,148 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:51965
+2025-06-19 01:15:17,149 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 01:16:56,278 - INFO - Cliente desconectado normalmente
+2025-06-19 01:16:56,280 - INFO - Cliente desconectado: 192.168.31.145:51965
+2025-06-19 01:16:56,280 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 01:16:57,489 - INFO - connection open
+2025-06-19 01:16:57,543 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:64604
+2025-06-19 01:16:57,543 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 01:18:37,786 - INFO - Cliente desconectado normalmente
+2025-06-19 01:18:37,786 - INFO - Cliente desconectado: 192.168.31.145:64604
+2025-06-19 01:18:37,786 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 01:18:43,374 - INFO - connection open
+2025-06-19 01:18:43,424 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:58386
+2025-06-19 01:18:43,425 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 01:20:23,646 - INFO - Cliente desconectado normalmente
+2025-06-19 01:20:23,646 - INFO - Cliente desconectado: 192.168.31.145:58386
+2025-06-19 01:20:23,647 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 01:20:35,684 - INFO - connection open
+2025-06-19 01:20:35,737 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:57017
+2025-06-19 01:20:35,737 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 01:21:34,869 - INFO - Cliente desconectado normalmente
+2025-06-19 01:21:34,870 - INFO - Cliente desconectado: 192.168.31.145:57017
+2025-06-19 01:21:34,870 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 07:59:08,135 - INFO - connection open
+2025-06-19 07:59:08,157 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:49232
+2025-06-19 07:59:08,158 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:05:31,904 - INFO - connection open
+2025-06-19 08:05:31,965 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:40554
+2025-06-19 08:05:31,966 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:06:27,553 - INFO - Cliente desconectado: 192.168.31.48:40554
+2025-06-19 08:06:27,553 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:06:42,248 - INFO - connection open
+2025-06-19 08:06:42,344 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:40622
+2025-06-19 08:06:42,344 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:09:51,194 - INFO - Cliente desconectado normalmente
+2025-06-19 08:09:51,195 - INFO - Cliente desconectado: 192.168.31.48:40622
+2025-06-19 08:09:51,195 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:10:34,388 - INFO - Cliente desconectado normalmente
+2025-06-19 08:10:34,388 - INFO - Cliente desconectado: 192.168.31.145:49232
+2025-06-19 08:10:34,389 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 08:11:02,550 - INFO - connection open
+2025-06-19 08:11:02,605 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:55231
+2025-06-19 08:11:02,605 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:11:18,104 - INFO - connection open
+2025-06-19 08:11:18,108 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:40878
+2025-06-19 08:11:18,109 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:11:47,391 - INFO - Cliente desconectado normalmente
+2025-06-19 08:11:47,391 - INFO - Cliente desconectado: 192.168.31.145:55231
+2025-06-19 08:11:47,391 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:11:50,390 - INFO - connection open
+2025-06-19 08:11:50,437 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:52179
+2025-06-19 08:11:50,437 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:12:59,994 - INFO - Cliente desconectado normalmente
+2025-06-19 08:12:59,994 - INFO - Cliente desconectado: 192.168.31.145:52179
+2025-06-19 08:12:59,994 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:13:00,701 - INFO - connection open
+2025-06-19 08:13:00,745 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:57279
+2025-06-19 08:13:00,745 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:13:19,094 - INFO - Cliente desconectado: 192.168.31.48:40878
+2025-06-19 08:13:19,095 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:13:25,127 - INFO - connection open
+2025-06-19 08:13:25,224 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:40932
+2025-06-19 08:13:25,224 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:14:52,542 - INFO - Cliente desconectado: 192.168.31.48:40932
+2025-06-19 08:14:52,542 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:15:30,320 - INFO - Cliente desconectado normalmente
+2025-06-19 08:15:30,320 - INFO - Cliente desconectado: 192.168.31.145:57279
+2025-06-19 08:15:30,321 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 08:15:31,473 - INFO - connection open
+2025-06-19 08:15:31,518 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:62022
+2025-06-19 08:15:31,518 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:15:33,410 - INFO - connection open
+2025-06-19 08:15:33,505 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:41016
+2025-06-19 08:15:33,505 - INFO - Clientes conectados - Total: 2, ESP32: 0, Móvil: 2
+2025-06-19 08:16:10,664 - INFO - Cliente desconectado normalmente
+2025-06-19 08:16:10,664 - INFO - Cliente desconectado: 192.168.31.145:62022
+2025-06-19 08:16:10,664 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:20:32,667 - INFO - Cliente desconectado normalmente
+2025-06-19 08:20:32,667 - INFO - Cliente desconectado: 192.168.31.48:41016
+2025-06-19 08:20:32,667 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 08:21:03,037 - INFO - connection open
+2025-06-19 08:21:03,091 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.145:55819
+2025-06-19 08:21:03,091 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:22:02,216 - INFO - Cliente desconectado normalmente
+2025-06-19 08:22:02,216 - INFO - Cliente desconectado: 192.168.31.145:55819
+2025-06-19 08:22:02,216 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 08:22:40,941 - INFO - connection open
+2025-06-19 08:22:41,035 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:41342
+2025-06-19 08:22:41,035 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:24:23,336 - INFO - connection open
+2025-06-19 08:24:23,404 - INFO - Cliente ESP32 conectado: 192.168.31.145:59285
+2025-06-19 08:24:23,404 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 08:25:22,549 - INFO - Cliente desconectado normalmente
+2025-06-19 08:25:22,550 - INFO - Cliente desconectado: 192.168.31.145:59285
+2025-06-19 08:25:22,550 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 08:26:47,581 - INFO - server closing
+2025-06-19 08:26:47,595 - INFO - Cliente desconectado: 192.168.31.48:41342
+2025-06-19 08:26:47,595 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 08:26:47,595 - INFO - server closed
+2025-06-19 08:26:47,596 - INFO - Estadísticas finales: 14985 análisis, 0.3% exitosos
+2025-06-19 08:26:47,597 - INFO - Servidor cerrado correctamente
+2025-06-19 08:58:09,493 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-19 08:58:09,685 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 08:58:09,692 - INFO - Modelo cargado desde: modelo.h5
+2025-06-19 08:58:09,692 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-19 08:58:09,693 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-19 08:58:09,693 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 08:58:09,695 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-19 08:58:09,695 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-19 08:58:09,695 - INFO - Análisis de gestos ACTIVADO
+2025-06-19 08:58:09,695 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 08:58:09,696 - INFO - Necesita 68 muestras para predicción
+2025-06-19 08:58:09,696 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-19 08:58:09,696 - INFO - Umbral de confianza: 0.6
+2025-06-19 08:58:09,696 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-19 08:58:09,729 - INFO - server listening on 0.0.0.0:8080
+2025-06-19 09:06:35,773 - INFO - connection open
+2025-06-19 09:06:35,843 - INFO - Cliente ESP32 conectado: 192.168.208.131:60317
+2025-06-19 09:06:35,843 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:07:10,898 - INFO - Cliente desconectado normalmente
+2025-06-19 09:07:10,898 - INFO - Cliente desconectado: 192.168.208.131:60317
+2025-06-19 09:07:10,898 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 09:09:18,697 - INFO - server closing
+2025-06-19 09:09:18,698 - INFO - server closed
+2025-06-19 09:09:18,698 - INFO - Estadísticas finales: 238 análisis, 0.4% exitosos
+2025-06-19 09:09:18,699 - INFO - Servidor cerrado correctamente
+2025-06-19 09:09:48,381 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-19 09:09:48,538 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 09:09:48,544 - INFO - Modelo cargado desde: modelo.h5
+2025-06-19 09:09:48,544 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-19 09:09:48,545 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-19 09:09:48,545 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 09:09:48,547 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-19 09:09:48,547 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-19 09:09:48,547 - INFO - Análisis de gestos ACTIVADO
+2025-06-19 09:09:48,547 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 09:09:48,547 - INFO - Necesita 68 muestras para predicción
+2025-06-19 09:09:48,548 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-19 09:09:48,548 - INFO - Umbral de confianza: 0.6
+2025-06-19 09:09:48,548 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-19 09:09:48,573 - INFO - server listening on 0.0.0.0:8080
+2025-06-19 09:13:13,270 - INFO - connection open
+2025-06-19 09:13:13,309 - INFO - Cliente ESP32 conectado: 192.168.166.131:52768
+2025-06-19 09:13:13,310 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:16:35,244 - INFO - Cliente desconectado normalmente
+2025-06-19 09:16:35,245 - INFO - Cliente desconectado: 192.168.166.131:52768
+2025-06-19 09:16:35,245 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 09:16:50,154 - INFO - connection open
+2025-06-19 09:16:50,364 - INFO - Cliente ESP32 conectado: 192.168.166.131:62019
+2025-06-19 09:16:50,364 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:20:36,209 - INFO - server closing
+2025-06-19 09:20:36,391 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-19 09:20:36,391 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-19 09:20:36,392 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-19 09:20:36,393 - ERROR - Error enviando respuesta a ESP32: sent 1001 (going away); then received 1000 (OK)
+2025-06-19 09:20:36,393 - INFO - Cliente desconectado: 192.168.166.131:62019
+2025-06-19 09:20:36,393 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 09:20:36,394 - INFO - server closed
+2025-06-19 09:20:36,394 - INFO - Estadísticas finales: 7667 análisis, 0.6% exitosos
+2025-06-19 09:20:36,395 - INFO - Servidor cerrado correctamente
+2025-06-19 09:21:15,161 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-19 09:21:15,355 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 09:21:15,363 - INFO - Modelo cargado desde: modelo.h5
+2025-06-19 09:21:15,364 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-19 09:21:15,364 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-19 09:21:15,364 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 09:21:15,366 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-19 09:21:15,366 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-19 09:21:15,366 - INFO - Análisis de gestos ACTIVADO
+2025-06-19 09:21:15,366 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 09:21:15,366 - INFO - Necesita 68 muestras para predicción
+2025-06-19 09:21:15,368 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-19 09:21:15,368 - INFO - Umbral de confianza: 0.7
+2025-06-19 09:21:15,368 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-19 09:21:15,401 - INFO - server listening on 0.0.0.0:8080
+2025-06-19 09:21:17,849 - INFO - connection open
+2025-06-19 09:21:17,938 - INFO - Cliente ESP32 conectado: 192.168.166.131:62027
+2025-06-19 09:21:17,938 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:24:35,898 - INFO - connection open
+2025-06-19 09:24:36,305 - INFO - Cliente Aplicación Móvil conectado: 192.168.166.149:50684
+2025-06-19 09:24:36,306 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:25:13,587 - INFO - Cliente desconectado normalmente
+2025-06-19 09:25:13,587 - INFO - Cliente desconectado: 192.168.166.149:50684
+2025-06-19 09:25:13,588 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:28:04,396 - INFO - Cliente desconectado normalmente
+2025-06-19 09:28:04,404 - INFO - Cliente desconectado: 192.168.166.131:62027
+2025-06-19 09:28:04,426 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 09:31:09,628 - INFO - connection open
+2025-06-19 09:31:09,711 - INFO - Cliente ESP32 conectado: 192.168.31.145:64309
+2025-06-19 09:31:09,712 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:31:25,685 - INFO - Cliente desconectado normalmente
+2025-06-19 09:31:25,686 - INFO - Cliente desconectado: 192.168.31.145:64309
+2025-06-19 09:31:25,686 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 09:31:35,018 - INFO - connection open
+2025-06-19 09:31:35,108 - INFO - Cliente ESP32 conectado: 192.168.31.145:55022
+2025-06-19 09:31:35,109 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:32:26,282 - INFO - Cliente desconectado normalmente
+2025-06-19 09:32:26,282 - INFO - Cliente desconectado: 192.168.31.145:55022
+2025-06-19 09:32:26,282 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 09:33:27,309 - INFO - connection open
+2025-06-19 09:33:27,322 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:43836
+2025-06-19 09:33:27,323 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 09:33:46,669 - INFO - connection open
+2025-06-19 09:33:46,749 - INFO - Cliente ESP32 conectado: 192.168.31.145:63404
+2025-06-19 09:33:46,749 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:35:38,264 - INFO - Cliente desconectado normalmente
+2025-06-19 09:35:38,264 - INFO - Cliente desconectado: 192.168.31.145:63404
+2025-06-19 09:35:38,264 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 09:35:47,575 - INFO - connection open
+2025-06-19 09:35:47,785 - INFO - Cliente ESP32 conectado: 192.168.31.145:60526
+2025-06-19 09:35:47,785 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:36:11,377 - INFO - Cliente desconectado normalmente
+2025-06-19 09:36:11,377 - INFO - Cliente desconectado: 192.168.31.48:43836
+2025-06-19 09:36:11,377 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:36:24,477 - INFO - connection open
+2025-06-19 09:36:24,574 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:44104
+2025-06-19 09:36:24,575 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:39:56,802 - INFO - Cliente desconectado normalmente
+2025-06-19 09:39:56,803 - INFO - Cliente desconectado: 192.168.31.48:44104
+2025-06-19 09:39:56,803 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:40:02,634 - INFO - connection open
+2025-06-19 09:40:02,729 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:44250
+2025-06-19 09:40:02,729 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:48:06,728 - INFO - Cliente desconectado normalmente
+2025-06-19 09:48:06,728 - INFO - Cliente desconectado: 192.168.31.48:44250
+2025-06-19 09:48:06,728 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:48:35,412 - INFO - connection open
+2025-06-19 09:48:35,563 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:44386
+2025-06-19 09:48:35,563 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:51:36,400 - INFO - Cliente desconectado normalmente
+2025-06-19 09:51:36,400 - INFO - Cliente desconectado: 192.168.31.48:44386
+2025-06-19 09:51:36,400 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:54:04,323 - INFO - connection open
+2025-06-19 09:54:04,334 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:44592
+2025-06-19 09:54:04,334 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:57:08,531 - INFO - Cliente desconectado normalmente
+2025-06-19 09:57:08,531 - INFO - Cliente desconectado: 192.168.31.145:60526
+2025-06-19 09:57:08,531 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 09:57:16,154 - INFO - connection open
+2025-06-19 09:57:16,194 - INFO - Cliente ESP32 conectado: 192.168.31.145:62345
+2025-06-19 09:57:16,194 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 09:57:50,429 - INFO - Cliente desconectado normalmente
+2025-06-19 09:57:50,429 - INFO - Cliente desconectado: 192.168.31.48:44592
+2025-06-19 09:57:50,430 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 09:59:14,348 - INFO - connection open
+2025-06-19 09:59:14,444 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:44960
+2025-06-19 09:59:14,444 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:01:11,412 - INFO - Cliente desconectado normalmente
+2025-06-19 10:01:11,412 - INFO - Cliente desconectado: 192.168.31.48:44960
+2025-06-19 10:01:11,412 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:07:50,515 - INFO - connection open
+2025-06-19 10:07:50,611 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:45204
+2025-06-19 10:07:50,612 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:17:46,293 - INFO - Cliente desconectado normalmente
+2025-06-19 10:17:46,294 - INFO - Cliente desconectado: 192.168.31.145:62345
+2025-06-19 10:17:46,294 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 10:17:54,796 - INFO - connection open
+2025-06-19 10:17:54,841 - INFO - Cliente ESP32 conectado: 192.168.31.145:50016
+2025-06-19 10:17:54,841 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:17:59,678 - INFO - Cliente desconectado normalmente
+2025-06-19 10:17:59,678 - INFO - Cliente desconectado: 192.168.31.48:45204
+2025-06-19 10:17:59,678 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:19:35,982 - INFO - connection open
+2025-06-19 10:19:36,084 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:45606
+2025-06-19 10:19:36,084 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:24:00,955 - INFO - Cliente desconectado normalmente
+2025-06-19 10:24:00,956 - INFO - Cliente desconectado: 192.168.31.48:45606
+2025-06-19 10:24:00,956 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:24:22,961 - INFO - Cliente desconectado normalmente
+2025-06-19 10:24:22,961 - INFO - Cliente desconectado: 192.168.31.145:50016
+2025-06-19 10:24:22,962 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 10:24:27,498 - INFO - connection open
+2025-06-19 10:24:27,567 - INFO - Cliente ESP32 conectado: 192.168.31.145:52781
+2025-06-19 10:24:27,567 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:28:39,581 - INFO - connection open
+2025-06-19 10:28:39,660 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:46220
+2025-06-19 10:28:39,661 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:39:41,543 - INFO - Cliente desconectado normalmente
+2025-06-19 10:39:41,544 - INFO - Cliente desconectado: 192.168.31.48:46220
+2025-06-19 10:39:41,544 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:40:59,583 - INFO - connection open
+2025-06-19 10:40:59,663 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:46774
+2025-06-19 10:40:59,663 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:43:44,643 - INFO - Cliente desconectado normalmente
+2025-06-19 10:43:44,643 - INFO - Cliente desconectado: 192.168.31.145:52781
+2025-06-19 10:43:44,643 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 10:43:49,747 - INFO - connection open
+2025-06-19 10:43:49,905 - INFO - Cliente ESP32 conectado: 192.168.31.145:52782
+2025-06-19 10:43:49,905 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:44:51,944 - INFO - Cliente desconectado: 192.168.31.48:46774
+2025-06-19 10:44:51,944 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:47:58,498 - INFO - Cliente desconectado normalmente
+2025-06-19 10:47:58,498 - INFO - Cliente desconectado: 192.168.31.145:52782
+2025-06-19 10:47:58,498 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 10:48:03,755 - INFO - connection open
+2025-06-19 10:48:03,799 - INFO - Cliente ESP32 conectado: 192.168.31.145:50691
+2025-06-19 10:48:03,799 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 10:48:30,248 - INFO - connection open
+2025-06-19 10:48:30,338 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:47096
+2025-06-19 10:48:30,338 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 10:59:41,822 - INFO - Cliente desconectado normalmente
+2025-06-19 10:59:41,823 - INFO - Cliente desconectado: 192.168.31.48:47096
+2025-06-19 10:59:41,823 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:00:43,319 - INFO - connection open
+2025-06-19 11:00:43,414 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:47448
+2025-06-19 11:00:43,414 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:03:46,364 - INFO - Cliente desconectado normalmente
+2025-06-19 11:03:46,364 - INFO - Cliente desconectado: 192.168.31.48:47448
+2025-06-19 11:03:46,365 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:05:47,784 - INFO - connection open
+2025-06-19 11:05:47,876 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:47662
+2025-06-19 11:05:47,877 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:06:24,145 - INFO - Cliente desconectado normalmente
+2025-06-19 11:06:24,145 - INFO - Cliente desconectado: 192.168.31.145:50691
+2025-06-19 11:06:24,146 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 11:06:33,566 - INFO - connection open
+2025-06-19 11:06:33,601 - INFO - Cliente ESP32 conectado: 192.168.31.145:64667
+2025-06-19 11:06:33,602 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:09:40,862 - INFO - Cliente desconectado normalmente
+2025-06-19 11:09:40,863 - INFO - Cliente desconectado: 192.168.31.48:47662
+2025-06-19 11:09:40,863 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:12:24,092 - INFO - Cliente desconectado normalmente
+2025-06-19 11:12:24,092 - INFO - Cliente desconectado: 192.168.31.145:64667
+2025-06-19 11:12:24,092 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 11:12:35,265 - INFO - connection open
+2025-06-19 11:12:35,325 - INFO - Cliente ESP32 conectado: 192.168.31.145:52124
+2025-06-19 11:12:35,325 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:13:24,402 - INFO - Cliente desconectado normalmente
+2025-06-19 11:13:24,402 - INFO - Cliente desconectado: 192.168.31.145:52124
+2025-06-19 11:13:24,402 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 11:13:32,815 - INFO - connection open
+2025-06-19 11:13:32,842 - INFO - Cliente ESP32 conectado: 192.168.31.145:53878
+2025-06-19 11:13:32,843 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:14:02,602 - INFO - Cliente desconectado normalmente
+2025-06-19 11:14:02,602 - INFO - Cliente desconectado: 192.168.31.145:53878
+2025-06-19 11:14:02,602 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 11:14:08,450 - INFO - connection open
+2025-06-19 11:14:08,498 - INFO - Cliente ESP32 conectado: 192.168.31.145:63837
+2025-06-19 11:14:08,498 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:15:34,617 - INFO - connection open
+2025-06-19 11:15:34,705 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:47950
+2025-06-19 11:15:34,705 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:18:47,544 - INFO - Cliente desconectado normalmente
+2025-06-19 11:18:47,544 - INFO - Cliente desconectado: 192.168.31.48:47950
+2025-06-19 11:18:47,544 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:22:15,054 - INFO - connection open
+2025-06-19 11:22:15,130 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:48678
+2025-06-19 11:22:15,131 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:24:47,940 - INFO - Cliente desconectado normalmente
+2025-06-19 11:24:47,940 - INFO - Cliente desconectado: 192.168.31.145:63837
+2025-06-19 11:24:47,940 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 11:24:58,305 - INFO - connection open
+2025-06-19 11:24:58,347 - INFO - Cliente ESP32 conectado: 192.168.31.145:64678
+2025-06-19 11:24:58,347 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:25:20,907 - INFO - Cliente desconectado normalmente
+2025-06-19 11:25:20,908 - INFO - Cliente desconectado: 192.168.31.48:48678
+2025-06-19 11:25:20,908 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:25:26,815 - INFO - connection open
+2025-06-19 11:25:26,912 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:48864
+2025-06-19 11:25:26,912 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:28:05,682 - INFO - Cliente desconectado normalmente
+2025-06-19 11:28:05,683 - INFO - Cliente desconectado: 192.168.31.48:48864
+2025-06-19 11:28:05,683 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:30:13,910 - INFO - connection open
+2025-06-19 11:30:13,998 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:49444
+2025-06-19 11:30:13,998 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:33:20,261 - INFO - Cliente desconectado normalmente
+2025-06-19 11:33:20,261 - INFO - Cliente desconectado: 192.168.31.48:49444
+2025-06-19 11:33:20,261 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 11:34:10,114 - INFO - connection open
+2025-06-19 11:34:10,211 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.48:37136
+2025-06-19 11:34:10,212 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 11:35:20,250 - INFO - Cliente desconectado normalmente
+2025-06-19 11:35:20,250 - INFO - Cliente desconectado: 192.168.31.145:64678
+2025-06-19 11:35:20,251 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 11:35:29,322 - INFO - Cliente desconectado normalmente
+2025-06-19 11:35:29,322 - INFO - Cliente desconectado: 192.168.31.48:37136
+2025-06-19 11:35:29,324 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 15:44:14,761 - INFO - server closing
+2025-06-19 15:44:14,761 - INFO - server closed
+2025-06-19 15:44:14,762 - INFO - Estadísticas finales: 147804 análisis, 0.6% exitosos
+2025-06-19 15:44:14,762 - INFO - Servidor cerrado correctamente
+2025-06-19 15:44:27,109 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-19 15:44:27,234 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 15:44:27,241 - INFO - Modelo cargado desde: modelo.h5
+2025-06-19 15:44:27,241 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-19 15:44:27,241 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-19 15:44:27,241 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 15:44:27,242 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-19 15:44:27,242 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-19 15:44:27,243 - INFO - Análisis de gestos ACTIVADO
+2025-06-19 15:44:27,243 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 15:44:27,243 - INFO - Necesita 68 muestras para predicción
+2025-06-19 15:44:27,243 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-19 15:44:27,243 - INFO - Umbral de confianza: 0.7
+2025-06-19 15:44:27,243 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-19 15:44:27,268 - INFO - server listening on 0.0.0.0:8080
+2025-06-19 15:54:28,299 - INFO - server closing
+2025-06-19 15:54:28,300 - INFO - server closed
+2025-06-19 15:54:28,300 - INFO - Servidor cerrado correctamente
+2025-06-19 15:55:14,712 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-19 15:55:14,823 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 15:55:14,829 - INFO - Modelo cargado desde: modelo.h5
+2025-06-19 15:55:14,829 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-19 15:55:14,829 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-19 15:55:14,829 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 15:55:14,830 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-19 15:55:14,830 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-19 15:55:14,831 - INFO - Análisis de gestos ACTIVADO
+2025-06-19 15:55:14,831 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 15:55:14,831 - INFO - Necesita 68 muestras para predicción
+2025-06-19 15:55:14,831 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-19 15:55:14,831 - INFO - Umbral de confianza: 0.7
+2025-06-19 15:55:14,831 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-19 15:55:14,848 - INFO - server listening on 0.0.0.0:8080
+2025-06-19 15:55:34,190 - INFO - connection open
+2025-06-19 15:55:34,260 - INFO - Cliente ESP32 conectado: 192.168.31.145:65358
+2025-06-19 15:55:34,261 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 15:58:20,139 - INFO - connection open
+2025-06-19 15:58:20,190 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.60:50412
+2025-06-19 15:58:20,190 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:01:40,218 - INFO - Cliente desconectado normalmente
+2025-06-19 16:01:40,218 - INFO - Cliente desconectado: 192.168.31.60:50412
+2025-06-19 16:01:40,218 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 16:08:46,523 - INFO - connection open
+2025-06-19 16:08:46,531 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.60:40632
+2025-06-19 16:08:46,532 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:11:05,469 - INFO - Cliente desconectado normalmente
+2025-06-19 16:11:05,469 - INFO - Cliente desconectado: 192.168.31.145:65358
+2025-06-19 16:11:05,469 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:11:13,744 - INFO - connection open
+2025-06-19 16:11:13,791 - INFO - Cliente ESP32 conectado: 192.168.31.145:49910
+2025-06-19 16:11:13,791 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:12:04,617 - INFO - Cliente desconectado normalmente
+2025-06-19 16:12:04,617 - INFO - Cliente desconectado: 192.168.31.145:49910
+2025-06-19 16:12:04,617 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:12:09,388 - INFO - connection open
+2025-06-19 16:12:09,434 - INFO - Cliente ESP32 conectado: 192.168.31.145:62444
+2025-06-19 16:12:09,434 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:13:11,324 - INFO - server closing
+2025-06-19 16:13:11,339 - INFO - Cliente desconectado: 192.168.31.60:40632
+2025-06-19 16:13:11,339 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 16:13:17,248 - INFO - Cliente desconectado: 192.168.31.145:62444
+2025-06-19 16:13:17,248 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 16:13:17,250 - INFO - Estadísticas finales: 20095 análisis, 0.0% exitosos
+2025-06-19 16:13:17,250 - INFO - Servidor cerrado correctamente
+2025-06-19 16:13:26,566 - WARNING - From C:\Users\walth\Desktop\server_glove\.venv\Lib\site-packages\keras\src\backend\tensorflow\core.py:232: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2025-06-19 16:13:26,674 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-06-19 16:13:26,681 - INFO - Modelo cargado desde: modelo.h5
+2025-06-19 16:13:26,681 - INFO - Forma de entrada del modelo: (None, 68, 10)
+2025-06-19 16:13:26,681 - INFO - Forma de salida del modelo: (None, 4)
+2025-06-19 16:13:26,681 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 16:13:26,682 - INFO - Iniciando servidor WebSocket en 0.0.0.0:8080
+2025-06-19 16:13:26,682 - INFO - Los datos se guardarán en: smart_glove_data.csv
+2025-06-19 16:13:26,683 - INFO - Análisis de gestos ACTIVADO
+2025-06-19 16:13:26,683 - INFO - Gestos disponibles: ['COMO_ESTAS', 'BIEN', 'SI', 'HOLA']
+2025-06-19 16:13:26,683 - INFO - Necesita 68 muestras para predicción
+2025-06-19 16:13:26,683 - INFO - Frecuencia de análisis: cada 0.8 segundos
+2025-06-19 16:13:26,683 - INFO - Umbral de confianza: 0.7
+2025-06-19 16:13:26,683 - INFO - Presiona Ctrl+C para detener el servidor
+2025-06-19 16:13:26,700 - INFO - server listening on 0.0.0.0:8080
+2025-06-19 16:13:28,666 - INFO - connection open
+2025-06-19 16:13:28,705 - INFO - Cliente ESP32 conectado: 192.168.31.145:60197
+2025-06-19 16:13:28,705 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 16:13:37,346 - INFO - connection open
+2025-06-19 16:13:37,387 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.60:45814
+2025-06-19 16:13:37,387 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:19:23,007 - INFO - Cliente desconectado normalmente
+2025-06-19 16:19:23,008 - INFO - Cliente desconectado: 192.168.31.145:60197
+2025-06-19 16:19:23,008 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:19:29,666 - INFO - connection open
+2025-06-19 16:19:29,711 - INFO - Cliente ESP32 conectado: 192.168.31.145:58764
+2025-06-19 16:19:29,711 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:21:54,866 - INFO - Cliente desconectado normalmente
+2025-06-19 16:21:54,866 - INFO - Cliente desconectado: 192.168.31.145:58764
+2025-06-19 16:21:54,866 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:21:59,838 - INFO - connection open
+2025-06-19 16:21:59,890 - INFO - Cliente ESP32 conectado: 192.168.31.145:49411
+2025-06-19 16:21:59,891 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:24:09,033 - INFO - Cliente desconectado normalmente
+2025-06-19 16:24:09,033 - INFO - Cliente desconectado: 192.168.31.145:49411
+2025-06-19 16:24:09,033 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:24:18,038 - INFO - connection open
+2025-06-19 16:24:18,072 - INFO - Cliente ESP32 conectado: 192.168.31.145:49986
+2025-06-19 16:24:18,072 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:29:28,815 - INFO - Cliente desconectado normalmente
+2025-06-19 16:29:28,816 - INFO - Cliente desconectado: 192.168.31.145:49986
+2025-06-19 16:29:28,816 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:29:34,231 - INFO - connection open
+2025-06-19 16:29:34,277 - INFO - Cliente ESP32 conectado: 192.168.31.145:58667
+2025-06-19 16:29:34,277 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:36:38,812 - INFO - Cliente desconectado normalmente
+2025-06-19 16:36:38,812 - INFO - Cliente desconectado: 192.168.31.145:58667
+2025-06-19 16:36:38,812 - INFO - Clientes conectados - Total: 1, ESP32: 0, Móvil: 1
+2025-06-19 16:36:48,171 - INFO - connection open
+2025-06-19 16:36:48,217 - INFO - Cliente ESP32 conectado: 192.168.31.145:49850
+2025-06-19 16:36:48,217 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:38:21,451 - INFO - Cliente desconectado normalmente
+2025-06-19 16:38:21,451 - INFO - Cliente desconectado: 192.168.31.60:45814
+2025-06-19 16:38:21,451 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 16:39:25,205 - INFO - Cliente desconectado normalmente
+2025-06-19 16:39:25,205 - INFO - Cliente desconectado: 192.168.31.145:49850
+2025-06-19 16:39:25,205 - INFO - Clientes conectados - Total: 0, ESP32: 0, Móvil: 0
+2025-06-19 16:39:33,512 - INFO - connection open
+2025-06-19 16:39:33,552 - INFO - Cliente ESP32 conectado: 192.168.31.145:54617
+2025-06-19 16:39:33,554 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
+2025-06-19 16:41:13,406 - INFO - connection open
+2025-06-19 16:41:13,455 - INFO - Cliente Aplicación Móvil conectado: 192.168.31.60:60362
+2025-06-19 16:41:13,455 - INFO - Clientes conectados - Total: 2, ESP32: 1, Móvil: 1
+2025-06-19 16:45:56,982 - INFO - Cliente desconectado normalmente
+2025-06-19 16:45:56,982 - INFO - Cliente desconectado: 192.168.31.60:60362
+2025-06-19 16:45:56,983 - INFO - Clientes conectados - Total: 1, ESP32: 1, Móvil: 0
