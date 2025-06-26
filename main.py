@@ -17,6 +17,7 @@ import numpy as np
 import tensorflow as tf
 import joblib
 from collections import deque
+import sys
 
 # Importar capas personalizadas
 from tensorflow.keras.layers import Layer
@@ -265,6 +266,14 @@ class SmartGloveServer:
         self.last_gesture_confidence = 0.0
         self.last_gesture_time = None
         
+        # Control de envío manual de gestos
+        self.manual_gesture_enabled = True
+        self.console_input_thread = None
+        self.server_running = False
+        
+        # Mapeo de gestos para entrada manual (copiado del analizador)
+        self.manual_gesture_map = {0: 'BIEN', 1: 'GRACIAS', 2: 'SI', 3: 'NO', 4: 'HOLA'}
+
     def setup_csv_file(self):
         """Configura el archivo CSV para guardar los datos"""
         file_exists = os.path.exists(CSV_FILE)
@@ -420,28 +429,32 @@ class SmartGloveServer:
         except Exception as e:
             logging.error(f"Error mostrando datos: {e}")
     
-    async def send_gesture_to_client(self, websocket, gesture, confidence):
+    async def send_gesture_to_client(self, websocket, gesture, confidence, source="model"):
         """Envía un gesto detectado a un cliente específico"""
         try:
             message = {
                 "type": "gesture_detected",
                 "gesture": gesture,
                 "confidence": float(confidence),
-                "timestamp": time.time()
+                "timestamp": time.time(),
+                "source": source  # "model" o "manual"
             }
             await websocket.send(json.dumps(message))
         except Exception as e:
             logging.error(f"Error enviando gesto a cliente: {e}")
     
-    async def broadcast_gesture_to_mobile_clients(self, gesture, confidence):
+    async def broadcast_gesture_to_mobile_clients(self, gesture, confidence, source="model"):
         """Envía el gesto detectado a todos los clientes móviles conectados"""
         if not self.mobile_clients:
+            if source == "manual":
+                print(f"⚠️  No hay clientes móviles conectados para enviar el gesto '{gesture}'")
             return
         
-        # Actualizar último gesto detectado
-        self.last_detected_gesture = gesture
-        self.last_gesture_confidence = confidence
-        self.last_gesture_time = time.time()
+        # Actualizar último gesto detectado solo si es del modelo
+        if source == "model":
+            self.last_detected_gesture = gesture
+            self.last_gesture_confidence = confidence
+            self.last_gesture_time = time.time()
         
         # Crear lista de tareas de envío
         tasks = []
@@ -449,17 +462,91 @@ class SmartGloveServer:
         
         for client in self.mobile_clients:
             try:
-                tasks.append(self.send_gesture_to_client(client, gesture, confidence))
+                tasks.append(self.send_gesture_to_client(client, gesture, confidence, source))
             except Exception:
                 disconnected_clients.append(client)
         
         # Ejecutar todas las tareas de envío en paralelo
         if tasks:
             await asyncio.gather(*tasks, return_exceptions=True)
+            
+            # Mostrar confirmación de envío manual
+            if source == "manual":
+                print(f"📱 Gesto manual '{gesture}' enviado a {len(tasks)} cliente(s) móvil(es)")
         
         # Limpiar clientes desconectados
         for client in disconnected_clients:
             await self.unregister_client(client)
+
+    def console_input_handler(self):
+        """Maneja la entrada de consola para envío manual de gestos"""
+        print("\n" + "🎮 CONTROL MANUAL DE GESTOS ACTIVADO" + "🎮")
+        print("-" * 50)
+        print("Mapeo de gestos disponibles:")
+        for num, gesture in self.manual_gesture_map.items():
+            print(f"  {num} -> {gesture}")
+        print("-" * 50)
+        print("💡 Ingresa un número (0-4) para enviar un gesto manualmente")
+        print("   Las predicciones del modelo siguen funcionando normalmente")
+        print("   Presiona 'q' + Enter para salir")
+        print("-" * 50)
+        
+        while self.server_running and self.manual_gesture_enabled:
+            try:
+                user_input = input("🎯 Ingresa número de gesto (0-4) o 'q' para salir: ").strip()
+                
+                if user_input.lower() == 'q':
+                    print("👋 Saliendo del control manual...")
+                    break
+                
+                if user_input == '':
+                    continue
+                
+                try:
+                    gesture_num = int(user_input)
+                    
+                    if gesture_num in self.manual_gesture_map:
+                        gesture = self.manual_gesture_map[gesture_num]
+                        confidence = 1.0  # Confianza máxima para gestos manuales
+                        
+                        print(f"📤 Enviando gesto manual: {gesture} (número {gesture_num})")
+                        
+                        # Enviar gesto usando asyncio desde otro hilo
+                        asyncio.run_coroutine_threadsafe(
+                            self.broadcast_gesture_to_mobile_clients(gesture, confidence, "manual"),
+                            self.loop
+                        )
+                        
+                    else:
+                        print(f"❌ Número inválido: {gesture_num}. Usa números del 0 al 4.")
+                        
+                except ValueError:
+                    print(f"❌ Entrada inválida: '{user_input}'. Ingresa un número del 0 al 4.")
+                    
+            except EOFError:
+                # Ctrl+D presionado
+                break
+            except KeyboardInterrupt:
+                # Ctrl+C presionado
+                break
+            except Exception as e:
+                logging.error(f"Error en entrada de consola: {e}")
+                break
+        
+        print("🔚 Control manual de gestos desactivado")
+
+    def start_console_input_thread(self, loop):
+        """Inicia el hilo de entrada de consola"""
+        if not self.manual_gesture_enabled:
+            return
+            
+        self.loop = loop
+        self.console_input_thread = threading.Thread(
+            target=self.console_input_handler,
+            daemon=True,
+            name="ConsoleInputHandler"
+        )
+        self.console_input_thread.start()
 
     async def handle_client_message(self, websocket):
         """Maneja los mensajes de los clientes"""
@@ -579,7 +666,13 @@ class SmartGloveServer:
         else:
             logging.info("Análisis de gestos DESACTIVADO (modelo no disponible)")
         
+        # Información sobre control manual
+        if self.manual_gesture_enabled:
+            logging.info("Control manual de gestos ACTIVADO")
+        
         logging.info("Presiona Ctrl+C para detener el servidor")
+        
+        self.server_running = True
         
         try:
             async with websockets.serve(
@@ -589,6 +682,10 @@ class SmartGloveServer:
                 ping_interval=20,
                 ping_timeout=10
             ):
+                # Iniciar hilo de entrada de consola
+                loop = asyncio.get_event_loop()
+                self.start_console_input_thread(loop)
+                
                 await asyncio.Future()  # Ejecutar indefinidamente
             
         except KeyboardInterrupt:
@@ -596,12 +693,21 @@ class SmartGloveServer:
         except Exception as e:
             logging.error(f"Error en servidor: {e}")
         finally:
+            self.server_running = False
             self.cleanup()
     
     def cleanup(self):
         """Limpia recursos al cerrar"""
+        self.server_running = False
+        self.manual_gesture_enabled = False
+        
         if self.csv_file_handle:
             self.csv_file_handle.close()
+        
+        # Esperar a que termine el hilo de entrada de consola
+        if self.console_input_thread and self.console_input_thread.is_alive():
+            logging.info("Esperando cierre del hilo de entrada de consola...")
+            # No usar join() porque puede causar deadlock, el hilo es daemon
         
         # Mostrar estadísticas finales
         if self.total_predictions > 0:
